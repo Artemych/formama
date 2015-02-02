@@ -6,16 +6,17 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var port = 80;
 
 app.use(express.static(__dirname + '/public'));
-
+/*
 var sendmailTransport = require('nodemailer-sendmail-transport');
 
 var transport = nodemailer.createTransport(sendmailTransport({
 	args: ["-t", "-f", "temamochalov@yandex.ru"]
 }));
-
+*/
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/public/index.html');
 });
+
 
 /*
 app.post('/mail',urlencodedParser, function(req, res) {
