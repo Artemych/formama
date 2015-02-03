@@ -27,7 +27,7 @@
 					position: 'top-left',
 					side: 'left',
 					animation: 'pushX',
-					width: 240,
+					width: 280,
 					height: '100%',
 					clickToHide: true,
 					html: '<div data-action="moveElement" data-args="header"></div>',
