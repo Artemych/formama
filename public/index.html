@@ -7,6 +7,7 @@
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
+		<script src="js/mail.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.scrollzer.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -174,14 +175,14 @@
 							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
 							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 							
-							<form method="post" action="/mail">
+							<form id="send-form" method="post" action="/mail">
 								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Имя" /></div>
-									<div class="6u"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="6u"><input id="mail-name" type="text" name="name" placeholder="Имя" /></div>
+									<div class="6u"><input id="mail-mail" type="email" name="email" placeholder="Email" /></div>
 								</div>
 								<div class="row 50%">
 									<div class="12u">
-										<textarea name="message" placeholder="Сообщение"></textarea>
+										<textarea id="mail-message" name="message" placeholder="Сообщение"></textarea>
 									</div>
 								</div>
 								<div class="row">
