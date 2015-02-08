@@ -22,7 +22,7 @@ app.post('/mail',urlencodedParser, function(req, res) {
 
     transport.sendMail({
             sender: req.body.email,
-            to: 'temamochalov@yandex.ru',
+            to: 'lamochalova@yandex.ru',
             subject:'Письмо с сайта от ' + req.body.name + " " + req.body.email,
             from: "noreply@lamochalova.ru",
             body: req.body.message,
