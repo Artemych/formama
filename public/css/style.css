@@ -271,7 +271,9 @@
 			
 				ul.icons li
 				{
-					display: inline-block;
+					/*display: inline-block;*/
+					padding: 0 1.5em;
+					text-align: left;					
 				}
 				
 					ul.icons a
@@ -282,6 +284,10 @@
 						line-height: 2em;
 						text-align: center;
 						border: 0;
+					}
+
+					ul.icons span {
+						color: #41484c;
 					}
 
 		ol
@@ -783,3 +789,11 @@
 			{
 				background-color: #e8edec;
 			}
+.job-list {
+    list-style: outside none disc;
+    text-align: left;
+}
+
+.job-list > li {
+    padding: 0.5em;
+}
