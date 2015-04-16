@@ -800,7 +800,6 @@
 
 .header-srollable {
     height: 100%;
-    min-height: 650px;
     overflow-y: auto;
     position: relative;
 }
