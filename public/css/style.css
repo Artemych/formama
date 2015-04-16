@@ -797,3 +797,22 @@
 .job-list > li {
     padding: 0.5em;
 }
+
+.header-srollable {
+    height: 100%;
+    min-height: 650px;
+    overflow-y: auto;
+    position: relative;
+}
+
+@media (max-height: 650px) {
+	#header .bottom {
+	    position: static;
+	    width: 100%;
+	}
+
+	#header .top {
+	    position: static;
+	    width: 100%;
+	}
+}
